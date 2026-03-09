@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Se o ficheiro ou diretoria existir fisicamente (como imagens ou CSS), carrega normalmente
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+# Caso contrário, envia o que foi digitado no URL para o index.php
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
