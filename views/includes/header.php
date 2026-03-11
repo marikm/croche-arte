@@ -28,7 +28,7 @@
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <!-- Brand -->
-        <a href="home" class="navbar-brand">
+        <a href="/croche-arte/home" class="navbar-brand">
             <div id="bg-brand" class="rounded-3" style="width: 43px; height: 43px; display: flex; align-items: center; justify-content: center;">
                 🧶
             </div>

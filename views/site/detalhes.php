@@ -64,7 +64,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="<?= '../uploads/produtos/'.$infoProduto["foto"] ?>" style="height:400px; width: 400px; fit-object-fit:cover" id="foto-principal" class="img-fluid rounded" alt="foto-principal-produto">
+                <img src="<?= '../uploads/produtos/'.$infoProduto["foto"] ?>" style="height:400px; fit-object-fit:cover" id="foto-principal" class="img-fluid rounded" alt="foto-principal-produto">
             </div>
             <div class="col-md-6">
                 <h1><?= $infoProduto["nome"] ?></h1>
